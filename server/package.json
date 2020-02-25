@@ -1,0 +1,24 @@
+{
+  "name": "raspberry-server",
+  "version": "1.0.0",
+  "description": "Server to coordinate camera swarm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RPI",
+    "NodeJS"
+  ],
+  "author": "Jorge Almela",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "local-devices": "^3.0.0",
+    "morgan": "^1.9.1",
+    "request": "^2.88.2",
+    "winston": "^3.2.1"
+  }
+}
